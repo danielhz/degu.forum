@@ -40,7 +40,13 @@ setup(name='degu.forum',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'Products.CMFPlone',
+          'plone.app.dexterity [grok]',
+          'plone.app.referenceablebehavior',
+          'plone.app.relationfield',
+          'plone.namedfile [blobs]',
+          'archetypes.schemaextender',
+          'plone.app.registry',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""

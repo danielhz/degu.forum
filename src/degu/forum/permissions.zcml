@@ -1,0 +1,10 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="degu.forum">
+
+  <permission id="degu.AddForumFolder" title="Degu: Add Forum Folder" />
+  <permission id="degu.AddForum" title="Degu: Add Forum" />
+  <permission id="degu.AddForumThread" title="Degu: Add Forum Thread" />
+
+</configure>
