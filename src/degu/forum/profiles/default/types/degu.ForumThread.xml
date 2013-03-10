@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<object name="degu.ForumThread" meta_type="Dexterity FTI" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="degu.educa">
+<object name="degu.ForumThread" meta_type="Dexterity FTI" xmlns:i18n="http://xml.zope.org/namespaces/i18n" i18n:domain="degu.forum">
     
   <!-- Basic properties -->
   <property name="title" i18n:translate="">Forum Thread</property>
   <property name="description" i18n:translate="">A forum thread</property>
-  <property name="content_icon">++resource++degu.educa/forum_icon.png</property>
+  <property name="content_icon">++resource++degu.forum/forum_icon.png</property>
   <property name="allow_discussion">True</property>
   
   <!-- Hierarchy control -->
@@ -13,7 +13,7 @@
   <property name="allowed_content_types"/>
   
   <!-- Schema, class and security -->
-  <property name="schema">degu.educa.forumthread.IForumThread</property> 
+  <property name="schema">degu.forum.forumthread.IForumThread</property> 
   <property name="klass">plone.dexterity.content.Container</property>
   <property name="add_permission">degu.AddForumThread</property>
   
