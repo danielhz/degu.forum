@@ -3,12 +3,10 @@
 from five import grok
 from zope import schema
 from plone.directives import form
-
 from zope.interface import Invalid
-
 from plone.namedfile.interfaces import IImageScaleTraversable
 from plone.namedfile.field import NamedBlobImage
-
+from plone.dexterity.content import Item
 from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
 from plone.app.textfield import RichText
 
@@ -27,3 +25,7 @@ class View(grok.View):
     grok.context(IForumThread)
     grok.require('zope2.View')
     grok.name('view')
+
+class ForumThread(Item):
+    """The object for forum threads
+    """

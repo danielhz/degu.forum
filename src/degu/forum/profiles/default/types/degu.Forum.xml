@@ -16,7 +16,7 @@
     
   <!-- Schema, class and security -->
   <property name="schema">degu.forum.forum.IForum</property> 
-  <property name="klass">plone.dexterity.content.Container</property>
+  <property name="klass">degu.forum.forum.Forum</property>
   <property name="add_permission">degu.AddForum</property>
  
   <!-- enabled behaviors -->
