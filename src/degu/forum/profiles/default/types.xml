@@ -1,0 +1,5 @@
+<object name="portal_types">
+  <object name="degu.ForumFolder" meta_type="Dexterity FTI"/>
+  <object name="degu.Forum" meta_type="Dexterity FTI"/>
+  <object name="degu.ForumThread" meta_type="Dexterity FTI"/>
+</object>
